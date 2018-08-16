@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/website-scraper/node-website-scraper",
   "dependencies": {
+    "babel-core": "^6.26.3",
     "bluebird": "^3.0.1",
     "cheerio": "0.22.0",
     "css-url-parser": "^1.0.0",
@@ -43,6 +44,11 @@
     "normalize-url": "^2.0.0",
     "p-queue": "^2.1.0",
     "request": "^2.85.0",
+    "rollup": "^0.64.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.5",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
     "srcset": "^1.0.0"
   },
   "devDependencies": {

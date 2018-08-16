@@ -1,3 +1,12 @@
+## Bundling hack
+
+To build a local `build.js` bundle:
+
+```
+npm i
+./node_modules/rollup/bin/rollup -c rollup.config.js
+```
+
 ## Introduction
 Download website to a local directory (including all css, images, js, etc.)
 
